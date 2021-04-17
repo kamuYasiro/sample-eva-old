@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>E計画</title>
+    <meta name="viewport" content="
+width=device-width, initial-scale=1">
+    <style>
+        img,iframe{
+            max-width: 100%;
+        }
+        body {
+            max-width:1000px;
+            margin:0 auto;
+            border-left:1px solid black;
+            border-right:1px solid black;
+            font-family:serif;
+            font-weight:500;
+        }
+        p {
+            max-width:900px;
+            margin:0 auto;
+        }
+        header {
+            text-align:center;
+            font-size:40px;
+            font-weight:bold;
+            padding:10px 0;
+        }
+        
+        .index {
+            background-color:black;
+            text-align: center;
+            padding:30px 0px;
+        }
+        .index a {
+            text-decoration:none;
+            color:firebrick;
+            padding:0px 30px;
+            font-size:36px;
+        }
+        a:hover {
+            color:red;
+        }
+        a:active {color:white;}
+        .index:after{
+            content:""; display:block; clear:both;
+        }
+        
+        h2 {
+            border-top:1px solid gray;
+            padding-top:5px;
+        }
+        figcaption {
+            margin-top:-8px;
+        }
+        
+        .a {
+            float:left;
+            margin:0 10px;
+        }
+        .a p {
+            margin-top:-10px;
+            text-align: center;
+            font-size:20px;
+        }
+        .mass {
+            max-width:900px;
+            margin:0 auto;
+        }
+        .mass img {
+            border:1px solid black;
+            width:250px; height:400px;
+        }
+        .mass:after{content:""; display:block; clear:both;}
+        
+        textarea{
+            width:300px;
+            height:100px;
+        }
+        .so-su,.try,.otoi {
+            border-top:2px solid gray;
+            margin:25px 0px;
+            padding-top:10px;
+        }
+        .so-su a {
+            color:blue;
+        }
+        .so-su a:hover {
+            color:violet;
+        }
+        .top{
+            text-align: center;
+            font-size:20px;
+        }
+        .jobun{
+            text-align: center;
+            border-top:1px solid black;
+            margin-top:20px;
+            padding:20px;
+            font-size:20px;
+        }
+        
+        @media screen and (max-width:600px) {}
+    </style>
+    <script>
+        function kill(){
+            alert("触んな");
+        }
+        function death(){
+            document.start.d.value="殺すぞ";
+        }
+    </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function(){$("#page-top a").click(function(){$('html,body').animate({scrolltop: 0}, 1000);});});
+</script>
+</head>
+<body>
+ <header>
+    汎用ヒト型決戦兵器人造人間エヴァンゲリオン
+ </header>
+ <main>
+     
+     <div class="index">
+         <p class="index-a"><a href="#0">零号機</a><a href="#1">初号機</a><a href="#2">弐号機</a>
+         </p><br>
+         <p class="index-b"><a href="#3">参号機</a><a href="#4">四号機</a><a href="#5">量産機</a>
+         </p>
+     </div>
+     
+        <p class="jobun">
+        本ページは、<br>主がHTML、CSS、JavaScriptの復習のため、半分学習、半分趣味で作ったページです。<br>
+            プログラミングを学び始めて1週間くらいなので、クオリティもそんな感じです。<br>
+        内容は、<br>『新世紀エヴァンゲリオン』におけるEVAシリーズの機体情報を要約したものです。
+            </p>
+     <h2 id="0">
+         【零号機（EVA-00 PROTO TYPE）】
+     </h2>
+     <figure><img  src="0.jpg"><figcaption>[画像] ドック待機時</figcaption></figure>
+     <p>山吹色のプロトタイプ（試作機）。</p>
+     <h3>【零号機（改）】</h3>
+     <figure><img src="00.jpg"><figcaption></figcaption>[画像] 戦闘時</figure>
+     <p>ウェポンラックが追加装備され、機体カラーも青に変更された。</p>
+     <h3>■パイロットの特徴</h3>
+    <figure><img width="280" height="500" src="81kvHQ2YgVL._SY1900_CR130,400,750,1334_.jpg"><figcaption>[画像] 綾波レイ</figcaption></figure>
+     <ul><li>青い髪</li><li>赤い瞳</li><li>かわいい</li><li>凛々しい</li><li>麗しい</li><li>洗練されている</li></ul>
+     <h2 id="1">
+         【初号機（EVA-01 TEST TYPE）】
+     </h2>
+    <figure><img src="1.jpg"><figcaption>[画像] 暴走時</figcaption></figure>
+     <p>紫色のテストタイプ（試験機）。<br>
+         リリスより制作された唯一の機体。</p>
+     <h3>■パイロットのコメント</h3>
+     <blockquote>綾波の匂いがする。ｸﾝｶｸﾝｶ</blockquote>
+     <h2 id="2">
+         【弐号機（EVA-02 PRODACTION MODEL）】
+     </h2>
+     <figure><img width="500" height="320" src="2.jpg"><figcaption>[画像] プログレッシブナイフ装備時</figcaption></figure>
+     <p>赤色の先行量産機。</p>
+    <figure><iframe width="600" height="330" src="https://www.youtube.com/embed/dfxdGOVQH1I?list=PL-P2pRh5LPek-3Uw2cDhxaZDEe_RLDgvW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><figcaption>[動画] 弐号機の戦闘映像</figcaption></figure>
+    <h2 id="3">
+         【参号機（EVA-03 PRODACTION MODEL）】
+     </h2>
+     <figure><img width="500" height="320" src="3.jpg"><figcaption>[画像] 使徒寄生時</figcaption></figure>
+     <p>黒色の正規実用型。米国NERF第1支部製。</p>
+    <h2 id="4">
+         【四号機（EVA-04 PRODACTION MODEL）】
+     </h2>
+     <figure><img width="500" height="320" src="4.jpg"><figcaption>[画像] シールド、ロンギヌスの槍装備時</figcaption></figure>
+     <p>銀色のS²機関搭載試験機。米国NERF第2支部製。</p>
+    <h2 id="5">
+         【量産機（EVA-05～13 MASS PRODACTION MODEL）】
+     </h2>
+     <figure><iframe width="600" height="330" src="https://www.youtube.com/embed/dfxdGOVQH1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><figcaption>[動画] 量産機の殺害映像</figcaption></figure>
+     <p>白色の量産型機。通称EVAシリーズ。
+     <br>S²機関搭載により活動限界を克服している。
+     </p><br>
+     <p>5号機から13号機までの全9機が実戦投入された。</p>
+    <div class="mass">
+        <div class="a">
+        <img src="5.jpg">
+            <p>5号機</p>
+        </div>
+        <div class="a">
+        <img src="6.jpg">
+            <p>6号機</p>
+        </div>
+        <div class="a">
+        <img src="7.jpg">
+            <p>7号機</p>
+        </div>
+        <div class="a">
+        <img src="8.jpg">
+            <p>8号機</p>
+        </div>
+        <div class="a">
+        <img src="9.jpg">
+            <p>9号機</p>
+        </div>
+        <div class="a">
+        <img src="10.jpg">
+            <p>10号機</p>
+        </div>
+        <div class="a">
+        <img src="11.jpg">
+            <p>11号機</p>
+        </div>
+        <div class="a">
+        <img src="12.jpg">
+            <p>12号機</p>
+        </div>
+        <div class="a">
+        <img src="13.jpg">
+            <p>13号機</p>
+        </div>
+    </div>
+    <h3 class="try">【Let's try!】あなたの性質にあった機体は？</h3>
+    <form name="start">
+        体　　重<input>kg<br>
+        身　　長<input>cm<br>
+        好きな色<input>色　<input type="button" value="診断開始" onclick="death()"><br>
+        結　　果<input type="tex" name="d">
+     </form>
+     <h3 class="otoi">【お問い合わせフォーム】</h3>
+     <p>お名前<br>
+         <input></p>
+         <p>メッセージ<br>
+    <textarea></textarea></p>
+     <p><input type="submit" onclick="kill()"></p>
+     <h3 class="so-su">各情報の参照元は<a href="https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3_(%E6%9E%B6%E7%A9%BA%E3%81%AE%E5%85%B5%E5%99%A8)" target="_blank">こちら</a></h3><br>
+     <p class="top" id="page-top"><a href="#">TOPに戻る</a></p><br>
+ </main>    
+ <footer>
+     <small>&copy;2021 NERF:G-Ikari</small>
+ </footer>
+</body>
